@@ -40,6 +40,11 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ADSENSE_PUBLISHER_ID_REDACTED"
+          crossOrigin="anonymous"
+        ></script>
       </Html>
     );
   }
