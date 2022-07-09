@@ -45,13 +45,13 @@ export function GoogleAd({ variant = AdType.DEFAULT }: GoogleAdProps) {
         data-ad-client={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}
         {...adUnitProps[variant]}
       /> */}
-      {/* <ins
+      <ins
         className="kakao_ad_area"
         style={{ display: 'none', width: '100%' }}
         data-ad-unit="KAKAO_AD_UNIT_REDACTED"
         data-ad-width="160"
         data-ad-height="600"
-      ></ins> */}
+      ></ins>
     </div>
   );
 }
