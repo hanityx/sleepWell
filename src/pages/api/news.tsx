@@ -5,7 +5,7 @@ import { JSDOM } from 'jsdom';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
   const page = parseInt(req.query.page as string) || 1; // 페이지 query로부터 가져오기
-  const displayCount = 4;
+  const displayCount = 10;
 
   const client_id = 'REDACTED_CLIENT_ID';
   const client_secret = 'REDACTED_CLIENT_SECRET';
