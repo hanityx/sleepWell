@@ -34,6 +34,9 @@ const app = ({ Component, pageProps }: AppProps) => {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <Head>
         <title>꿀잠</title>
+        
+<meta name="naver-site-verification" content="NAVER_SITE_VERIFICATION_REDACTED" />
+
         <meta property="og:title" content="꿀잠" />
         <meta name="description" content="바쁜 당신을 위한 수면 램수면 계산기" />
         <meta property="og:url" content="https://sleepwell.kr/" />
