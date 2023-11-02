@@ -31,7 +31,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="naver-site-verification" content="f9452db307d2fe8e78df07952649bb7ec8442416" />
+<meta name="naver-site-verification" content="NAVER_SITE_VERIFICATION_REDACTED" />
+          
           <meta name="google-site-verification" content="GOOGLE_SITE_VERIFICATION_REDACTED" />
           <link rel="icon" href=".//favicon.ico" />
           <link rel="apple-touch-icon" sizes="180x180" href=".//apple-touch-icon.png" />
